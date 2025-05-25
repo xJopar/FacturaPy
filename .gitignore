@@ -1,0 +1,14 @@
+# Archivos y carpetas ignorados para mantener el repositorio limpio.
+
+monolitico/env/
+*/env/
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+.env
+*.env
+
+.DS_Store
+Thumbs.db
