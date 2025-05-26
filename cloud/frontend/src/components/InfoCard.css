@@ -1,0 +1,35 @@
+.info-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 24px;
+  position: relative;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border: 3px solid #ff6b9d;
+  max-width: 320px;
+}
+
+.info-card-icon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #ff6b9d;
+  width: 30px;
+  height: 30px;
+  fill: #ff6b9d; /*Rellenar*/
+}
+
+.info-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 12px 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.info-card-text {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 20px 0;
+  line-height: 1.4;
+  font-family: system-ui, -apple-system, sans-serif;
+}
